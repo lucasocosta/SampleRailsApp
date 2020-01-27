@@ -10,6 +10,9 @@ gem 'sqlite3', '~> 1.3', '< 1.4'
 gem 'rspec-rails', '2.11.0'
 gem 'rake', '< 11.0'
 gem 'bcrypt-ruby', '3.0.1'
+gem 'faker'
+gem 'will_paginate', '3.0.3'
+gem 'bootstrap-will_paginate', '0.0.6'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -29,6 +32,7 @@ gem 'jquery-rails'
 group :test do
   gem 'test-unit'
   gem 'capybara', '1.1.2'
+  gem 'faker'
 end
 
 group :production do
